@@ -28,23 +28,23 @@ namespace NewGuid
 {
     class Program
     {
-		//To compile:
-		//"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"  /out:C:\utils\bin\NewGuid.exe  C:\utils\cs\NewGuid.cs 
-		// Note: Update locations for your machine
-		//
-		//To Run:
-		//NewGuid  
-		//
-		//To use in a Windows cmd/batch file:
-		//@echo off
-		//set guid=
-		//for /f %%i in ('newguid') do set guid=%%i
-		//echo Result is %guid%
-		//	
-		//rem  Make a location were we can test - delete this folder later
-		//call mkdir "c:\somewhere\newguidTest"
-		//for /f %%i in ('newguid') do set guid=%%i
-		//call mkdir "c:\somewhere\newguidTest\%guid%"
+	//To compile:
+	//"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"  /out:C:\utils\bin\NewGuid.exe  C:\utils\cs\NewGuid.cs 
+	// Note: Update locations for your machine
+	//
+	//To Run:
+	//NewGuid  
+	//
+	//To use in a Windows cmd/batch file:
+	//@echo off
+	//set guid=
+	//for /f %%i in ('newguid') do set guid=%%i
+	//echo Result is %guid%
+	//	
+	//rem  Make a location were we can test - delete this folder later
+	//call mkdir "c:\somewhere\newguidTest"
+	//for /f %%i in ('newguid') do set guid=%%i
+	//call mkdir "c:\somewhere\newguidTest\%guid%"
                                 
         [STAThread]
 		static int Main(string[] args)
